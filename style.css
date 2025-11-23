@@ -129,3 +129,33 @@ footer{
   font-size:12px !important;
   white-space:nowrap !important;
 }
+/* ANALİZ ALANI GENEL GRID YAPISI */
+.analysis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Sol ve sağ panel kutularının aynı hizada olması için */
+.analysis .panel,
+.analysis aside {
+    background: #434B51;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+/* Örnekler ve müdahale planı dış kutuları hizalansın */
+.examples,
+.plan {
+    background: #434B51;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
